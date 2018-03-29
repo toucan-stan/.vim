@@ -8,6 +8,7 @@ Includes:
 - NERDTree (file system browser)
 - Solarized theme (king of the color schemes)
 - Lightline (lightweight status line plugin)
+- vim-elixir (elixir syntax highlighting + filetype detection)
 
 To install:
 
