@@ -8,6 +8,8 @@ execute pathogen#infect()
     " lightline
     " syntastic
     " NERDTree
+    " vim-elixir
+    " typescript-vim
 
 " solarized color scheme 
 syntax enable
@@ -23,7 +25,7 @@ let g:lightline = {
 set laststatus=2
 set noshowmode
 
-" enables mouse
+" enables mouse (yeah, i know...) 
 set mouse=a
 if has("mouse.sgr")
     set ttymouse=sgr
