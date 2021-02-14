@@ -1,26 +1,28 @@
-Colin P.'s Super-Excellent Vim Configuration
+# vim dotfiles
 
-Created with the help of https://stackoverflow.com/questions/18197705/adding-your-vim-vimrc-to-github-aka-dot-files
-And: http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/
+My vim dotfiles & configuration. A `.vimrc` file is stored in `.vim/vimrc`. 
 
-Includes: 
+## Plugin Manager
 
-- Pathogen (vim plugin manager)
-- NERDTree (file system browser)
-- Solarized theme (king of the color schemes)
-- Lightline (lightweight status line plugin)
-- vim-elixir (elixir syntax highlighting + filetype detection)
-- typescript-vim (typescript syntax highlighting)
+Uses [vim-plug](https://github.com/junegunn/vim-plug), a recent version
+of which (`HEAD: 02a192e`) is included in this repo, under `/autoload`. 
 
-To install:
+## Included Packages
 
-```shell
-cd ~
-rm -rf ~/.vim # if you'd like to start a fresh vim config
-git clone https://github.com/colingrahampowell/vimconfig.git ~/.vim
-ln -s ~/.vim/vimrc ~/.vimrc
-cd ~/.vim
-git submodule init
-git submodule update
+- [fzf.vim](https://github.com/junegunn/fzf.vim)
+- [NERDTree](https://github.com/preservim/nerdtree)
+- [lightline](https://github.com/itchyny/lightline.vim)
+- [vim-sensible](https://github.com/tpope/vim-sensible)
+- [dracula colorscheme](https://github.com/dracula/vim)
+
+## Installation
+ 
+```bash
+cd ~/
+git clone https://github.com/toucan-stan/.vim.git
+cd .vim
 ```
+
+Open `vimrc` in vim and enter `:PlugInstall` to download the included
+packages. Restart vim, and you should be good to go.
 
