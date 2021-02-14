@@ -6,6 +6,12 @@
       "filetypes": ["c", "cc", "cpp", "c++", "objc", "objcpp"],
       "rootPatterns": [".ccls", "compile_commands.json"],
       "initializationOptions": {
+         "index": {
+           "onChange": true
+         },
+         "highlight": { 
+           "lsRanges" : true 
+         },
          "cache": {
            "directory": "/tmp/ccls"
          },

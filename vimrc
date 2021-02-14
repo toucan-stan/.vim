@@ -7,6 +7,7 @@ Plug 'itchyny/lightline.vim'
 Plug 'tpope/vim-sensible'
 Plug 'dracula/vim'
 Plug 'neoclide/coc.nvim', { 'branch': 'release' }
+Plug 'jackguo380/vim-lsp-cxx-highlight'
 call plug#end()
 
 " dracula color scheme 
@@ -33,9 +34,14 @@ set tabstop=2
 set shiftwidth=2
 set expandtab
 
-" filetype detection, syntax highlighting
+" filetype detection
 filetype on		
-syntax on		
+ 
+" syntax highlighting
+syntax on
+let g:cpp_class_scope_highlight = 1
+let g:cpp_member_variable_highlight = 1
+let g:cpp_class_decl_highlight = 1
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " coc.nvim example settings

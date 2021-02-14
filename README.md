@@ -14,6 +14,7 @@ Uses [vim-plug](https://github.com/junegunn/vim-plug)
 - [vim-sensible](https://github.com/tpope/vim-sensible)
 - [dracula colorscheme](https://github.com/dracula/vim)
 - [coc.nvim](https://github.com/neoclide/coc.nvim)
+- [vim-lsp-cxx-highlight](https://github.com/jackguo380/vim-lsp-cxx-highlight)
 
 ## Installation
  
