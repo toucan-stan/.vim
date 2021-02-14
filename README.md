@@ -14,6 +14,7 @@ of which (`HEAD: 02a192e`) is included in this repo, under `/autoload`.
 - [lightline](https://github.com/itchyny/lightline.vim)
 - [vim-sensible](https://github.com/tpope/vim-sensible)
 - [dracula colorscheme](https://github.com/dracula/vim)
+- [coc.nvim](https://github.com/neoclide/coc.nvim)
 
 ## Installation
  
@@ -24,5 +25,8 @@ cd .vim
 ```
 
 Open `vimrc` in vim and enter `:PlugInstall` to download the included
-packages. Restart vim, and you should be good to go.
+packages. Restart vim, and the packages should be available.
+
+Note that the included `coc-settings.json` file requires the `ccls` language
+server to provide code completion, diagnostics, etc. for C/C++/Objective C.
 
