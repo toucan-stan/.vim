@@ -4,8 +4,7 @@ My vim dotfiles & configuration. A `.vimrc` file is stored in `.vim/vimrc`.
 
 ## Plugin Manager
 
-Uses [vim-plug](https://github.com/junegunn/vim-plug), a recent version
-of which (`HEAD: 02a192e`) is included in this repo, under `/autoload`. 
+Uses [vim-plug](https://github.com/junegunn/vim-plug)
 
 ## Included Packages
 
@@ -22,6 +21,9 @@ of which (`HEAD: 02a192e`) is included in this repo, under `/autoload`.
 cd ~/
 git clone https://github.com/toucan-stan/.vim.git
 cd .vim
+# download vim-plug, install into autoload/plug.vim
+curl -fLo autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 ```
 
 Open `vimrc` in vim and enter `:PlugInstall` to download the included
