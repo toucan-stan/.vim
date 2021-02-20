@@ -43,6 +43,9 @@ let g:cpp_class_scope_highlight = 1
 let g:cpp_member_variable_highlight = 1
 let g:cpp_class_decl_highlight = 1
 
+" map leader + space to the FZF :Files command 
+nnoremap <silent> <leader><space> :Files<CR>
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " coc.nvim example settings
 " from https://github.com/neoclide/coc.nvim#example-vim-configuration
